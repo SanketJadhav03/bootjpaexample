@@ -50,6 +50,7 @@ public class BootjpaexampleApplication {
 		Iterable<User> itr = userRepository.findAll();
 		itr.forEach(user->{
 			System.out.println(user);
+			System.out.println("Hii");
 		});
 		
 	}
